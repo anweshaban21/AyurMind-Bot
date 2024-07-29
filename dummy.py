@@ -58,7 +58,7 @@ def load_data(file_path):
     return questions, answers
 
 # Example usage
-file_path = r'C:\Users\ANWESHA\OneDrive\Documents\python\Python Project\ayurvedic_QnA.csv'
+file_path = r'ayurvedic_QnA.csv'
 questions, answers = load_data(file_path)
 
 # Function to save chat history to file
